@@ -1,0 +1,124 @@
+/* el asterisoc se refiere a todos los elementos de html*/
+*{
+	font-family:algerian;
+}
+
+/*ordenar al body que desaparezca margenes*/
+
+body{
+
+	margin:0;
+
+
+
+
+}
+/*pading se refiere a el tamaño de color amarillo*/
+/**/
+
+.titulos-principales{
+	background: purple;
+	text-align: center;
+	padding: 3%;
+}
+
+
+/*padre div, hijo h1*/
+.titulos-principales h1{
+	font-size: 50px;
+	color:white;
+	
+}
+
+.titulos-principales h5{
+	font-size: 30px;
+	text-align: center;
+	color:white;
+}
+
+/*alinear el texto*/
+.menu-navegacion{
+	text-align: center
+}
+
+/*colocar el texto en horizontal*/
+.menu-navegacion li{
+	display: inline;
+	font-size: 30px;
+
+}
+
+/*simetria entre botones width*/
+
+.menu-navegacion a{
+	margin:5%;
+	background-color: black;
+	color:yellow;
+	padding: 2%;
+	display: inline-block;
+	text-decoration: none;
+	width: 120px;
+	border:5px solid purple;
+	
+}
+
+
+/*colorear el menu al pasar el puntero*/
+.menu-navegacion li:hover a{
+	color:red;
+
+}
+
+/*mantener el link una vez ya seleccionado de el mismo color, a es la clase activo*/
+li.activo a{
+	background: gray;
+}
+
+.informacion-personal{
+	text-align: center;
+
+}
+
+/*quitar puntos de listado de personaje*/
+ul{
+	list-style: none;
+}
+
+
+
+/*footer*/
+.footer{
+	background:#CC1231;
+	color:black;
+	padding: 3%
+}
+
+.footer li{
+	display:inline;
+	margin: 8%;
+	text-align:center;
+	font-size: 30px;
+
+}
+
+.footer a{
+	background: black;
+	color:orange;
+	text-decoration: none;
+	padding: 2%
+}
+
+
+.biografia{
+	text-align: left;
+	padding: 2%;
+
+}
+
+.hobbie{
+	text-align: center;
+
+
+
+
+}
